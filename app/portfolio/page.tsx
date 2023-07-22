@@ -12,7 +12,7 @@ export default function Home() {
         <main className="flex min-h-screen w-full flex-col items-center justify-between">
             <div className={"absolute flex flex-row justify-end top-0 h-12 w-full"}>
                 <div className={"my-2 mx-4"}>
-                    <Link href={"/contact"} className={"text-xl text-blue-500 underline "+latoFont.className}>Contact Page</Link>
+                    <Link href={"/contact"} className={"text-xl text-blue-500 "+latoFont.className}>CONTACT</Link>
                 </div>
             </div>
             <div className={"p-8 w-full flex flex-col"}>
