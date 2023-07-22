@@ -13,7 +13,7 @@ export default function Home() {
     useEffect(()=>{
         setTimeout(()=>{
             router.push("/portfolio")
-        },3000);
+        },1000);
     },[])
   return (
     <main className="grid place-items-center min-h-screen w-full">
