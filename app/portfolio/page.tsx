@@ -30,16 +30,20 @@ export default function Home() {
                         <h1 className={"text-3xl text-black "+latoFont.className}>Technical Skills</h1>
                         <div className={"my-2 w-full grid gap-4 grid-cols-5 "+latoFont.className}>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>1. </span>
-                                Java
-                            </div>
-                            <div className={"text-blue-500 text-xl font-medium"}>
                                 <span className={"text-black"}>2. </span>
                                 JavaScript
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
                                 <span className={"text-black"}>3. </span>
                                 TypeScript
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>1. </span>
+                                AWS LAMBDA
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>1. </span>
+                                Java
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
                                 <span className={"text-black"}>4. </span>
@@ -60,6 +64,14 @@ export default function Home() {
                             <div className={"text-blue-500 text-xl font-medium"}>
                                 <span className={"text-black"}>8. </span>
                                 MySQL
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>1. </span>
+                                OPEN API
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>1. </span>
+                                Puppeteer
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
                                 <span className={"text-black"}>9. </span>
