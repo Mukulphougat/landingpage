@@ -25,60 +25,60 @@ export default function Home() {
                 <div className={"w-full h-40 flex flex-row justify-end"}>
                     <Lottie animationData={animationData} className={"w-96 h-40"}/>
                 </div>
-                <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-44 p-8"}>
+                <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-48 p-8"}>
                     <div>
                         <h1 className={"text-3xl text-black "+latoFont.className}>Technical Skills</h1>
                         <div className={"my-2 w-full grid gap-4 grid-cols-5 "+latoFont.className}>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>2. </span>
+                                <span className={"text-black"}>1. </span>
                                 JavaScript
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>3. </span>
+                                <span className={"text-black"}>2. </span>
                                 TypeScript
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>1. </span>
+                                <span className={"text-black"}>3. </span>
                                 AWS LAMBDA
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>1. </span>
+                                <span className={"text-black"}>4. </span>
                                 Java
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>4. </span>
+                                <span className={"text-black"}>5. </span>
                                 React JS
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>5. </span>
+                                <span className={"text-black"}>6. </span>
                                 Next Js
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>6. </span>
+                                <span className={"text-black"}>7. </span>
                                 Tailwind CSS
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>7. </span>
+                                <span className={"text-black"}>8. </span>
                                 MongoDB
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>8. </span>
+                                <span className={"text-black"}>9. </span>
                                 MySQL
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>1. </span>
+                                <span className={"text-black"}>10. </span>
                                 OPEN API
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>1. </span>
+                                <span className={"text-black"}>11. </span>
                                 Puppeteer
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>9. </span>
+                                <span className={"text-black"}>12. </span>
                                 Prisma
                             </div>
                             <div className={"text-blue-500 text-xl font-medium"}>
-                                <span className={"text-black"}>10. </span>
+                                <span className={"text-black"}>13. </span>
                                 SpringBoot
                             </div>
                         </div>
