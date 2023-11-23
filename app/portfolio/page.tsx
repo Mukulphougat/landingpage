@@ -25,7 +25,7 @@ export default function Home() {
                 <div className={"w-full h-40 flex flex-row justify-end"}>
                     <Lottie animationData={animationData} className={"w-96 h-40"}/>
                 </div>
-                <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-48 p-8"}>
+                <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-52 p-8"}>
                     <div>
                         <h1 className={"text-3xl text-black "+latoFont.className}>Technical Skills</h1>
                         <div className={"my-2 w-full grid gap-4 grid-cols-5 "+latoFont.className}>
