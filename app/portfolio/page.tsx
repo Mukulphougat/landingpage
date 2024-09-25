@@ -17,7 +17,7 @@ export default function Home() {
             </div>
             <div className={"p-8 w-full flex flex-col"}>
                 <div className={"my-8 flex flex-col rounded-sm w-full h-64 bg-transparent"}>
-                    <img src={"./img_1.png"} className={"mx-auto w-60 h-60 rounded-full"} width={50} height={50} alt={"PROFILE"}/>
+                    <img src={"./PhotoUpdated.jpg"} className={"mx-auto w-60 h-60 rounded-full"} width={50} height={50} alt={"PROFILE"}/>
                     <div className={"flex flex-row my-4 justify-center"}>
                         <h1 className={"text-4xl text-black "+nameHeading.className}>{"<Mukul Phougat/>"}</h1>
                     </div>
@@ -25,10 +25,10 @@ export default function Home() {
                 <div className={"w-full h-40 flex flex-row justify-end"}>
                     <Lottie animationData={animationData} className={"w-96 h-40"}/>
                 </div>
-                <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-52 p-8"}>
+                <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-58 p-8"}>
                     <div>
                         <h1 className={"text-3xl text-black "+latoFont.className}>Technical Skills</h1>
-                        <div className={"my-2 w-full grid gap-4 grid-cols-5 "+latoFont.className}>
+                        <div className={"my-2 w-full grid gap-4 grid-cols-5 " + latoFont.className}>
                             <div className={"text-blue-500 text-xl font-medium"}>
                                 <span className={"text-black"}>1. </span>
                                 JavaScript
@@ -81,12 +81,44 @@ export default function Home() {
                                 <span className={"text-black"}>13. </span>
                                 SpringBoot
                             </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>14. </span>
+                                DynamoDB
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>15. </span>
+                                Api-Gateway
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>16. </span>
+                                Socket-Io
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>17. </span>
+                                AWS SQS
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>18. </span>
+                                AWS S3
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>19. </span>
+                                Vitest
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>20. </span>
+                                Vitest
+                            </div>
+                            <div className={"text-blue-500 text-xl font-medium"}>
+                                <span className={"text-black"}>21. </span>
+                                RabbitMq
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className={"my-6 border-2 border-gray-100 shadow-lg shadow-gray-100 rounded-lg w-full h-1/2 p-8"}>
                     <div>
-                        <h1 className={"text-black text-3xl "+latoFont.className}>Projects</h1>
+                    <h1 className={"text-black text-3xl "+latoFont.className}>Projects</h1>
                         <div className={"my-2 w-full grid gap-4 grid-cols-3"}>
                             {
                                 ProjectDetails.map((project)=>{
